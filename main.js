@@ -14,17 +14,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
         '84': 2245,  //T
         '89': 2449,  //Y
         '85': 2653,  //U
-        '73': 2857, //I
+        '73': 2857,  //I
 
 	/* just intonation*/
         '65': 1429,  //A
-        '83': 1607, //S
+        '83': 1607,  //S
         '68': 1786,  //D
-        '70':1905,  //F
+        '70': 1905,  //F
         '71': 2143,  //G
-        '72':2381,  //H
-        '74':2679,  //J
-        '75': 2857, //K
+        '72': 2381,  //H
+        '74': 2679,  //J
+        '75': 2857,  //K
     }
 
     window.addEventListener('keydown', keyDown, false);
