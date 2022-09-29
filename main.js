@@ -6,25 +6,35 @@ document.addEventListener("DOMContentLoaded", function(event) {
     globalGain.connect(audioCtx.destination);
 
     const keyboardFrequencyMap = {
-	/*my musical scale*/
-        '81': 1429,  //Q
-        '87': 1633,  //W
-        '69': 1837,  //E
-        '82': 2041,  //R
-        '84': 2245,  //T
-        '89': 2449,  //Y
-        '85': 2653,  //U
-        '73': 2857,  //I
+	/*Linear musical scale*/
+        '81': 261.63,  //Q
+        '87': 299,  //W
+        '69': 336.38,  //E
+        '82': 373.76,  //R
+        '84': 411.13,  //T
+        '89': 448.51,  //Y
+        '85': 485.88,  //U
+        '73': 523.25,  //I
 
-	/* just intonation*/
-        '65': 1429,  //A
-        '83': 1607,  //S
-        '68': 1786,  //D
-        '70': 1905,  //F
-        '71': 2143,  //G
-        '72': 2381,  //H
-        '74': 2679,  //J
-        '75': 2857,  //K
+	/*Exponential musical scale*/
+        '65': 261.63, //A
+        '83': 264.36, //S
+        '68': 269.81, //D
+        '70': 283.43, //F
+        '71': 310.69,  //G
+        '72': 354.29,  //H
+        '74': 419.70, //J
+        '75': 523.25, //K
+
+    /* just intonation*/
+        '90': 261.63, //Z
+        '88': 293.66, //X
+        '67': 329.63, //C
+        '86': 349.23, //V
+        '66': 392,  //B
+        '78': 440,  //N
+        '77': 493.88, //M
+        '188': 523.25, //,
     }
 
     window.addEventListener('keydown', keyDown, false);
