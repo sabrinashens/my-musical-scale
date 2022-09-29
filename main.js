@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         '74': 419.70, //J
         '75': 523.25, //K
 
-    /* just intonation*/
+    	/* just intonation*/
         '90': 261.63, //Z
         '88': 293.66, //X
         '67': 329.63, //C
