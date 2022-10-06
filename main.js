@@ -6,25 +6,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     globalGain.connect(audioCtx.destination);
 
     const keyboardFrequencyMap = {
-	/*Linear musical scale*/
-        '81': 261.63,  //Q
-        '87': 299,  //W
-        '69': 336.38,  //E
-        '82': 373.76,  //R
-        '84': 411.13,  //T
-        '89': 448.51,  //Y
-        '85': 485.88,  //U
-        '73': 523.25,  //I
-
 	/*Exponential musical scale*/
-        '65': 261.63, //A
-        '83': 264.36, //S
-        '68': 269.81, //D
-        '70': 283.43, //F
-        '71': 310.69,  //G
-        '72': 354.29,  //H
-        '74': 419.70, //J
-        '75': 523.25, //K
+        '65': 261, //A
+        '83': 263, //S
+        '68': 267, //D
+        '70': 275, //F
+        '71': 291,  //G
+        '72': 324,  //H
+        '74': 389, //J
+        '75': 522, //K
 
     /* just intonation*/
         '90': 261.63, //Z
