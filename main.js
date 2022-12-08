@@ -7,26 +7,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     const keyboardFrequencyMap = {
 	/*Exponential musical scale*/
-        '65': 261, //A
-        '83': 263, //S
-        '68': 267, //D
-        '70': 275, //F
-        '71': 291,  //G
-        '72': 324,  //H
-        '74': 389, //J
-        '75': 522, //K
+        '65': 500, //A
+        '83': 522, //S
+        '68': 557, //D
+        '70': 603, //F
+        '71': 657,  //G
+        '72': 718,  //H
+        '74': 783, //J
+        '75': 853, //K
 
     /* just intonation*/
-        '90': 261.63, //Z
-        '88': 293.66, //X
-        '67': 329.63, //C
-        '86': 349.23, //V
-        '66': 392,  //B
-        '78': 440,  //N
-        '77': 493.88, //M
-        '188': 523.25, //,
+        '90': 261, //Z
+        '88': 279, //X
+        '67': 302, //C
+        '86': 328, //V
+        '66': 359,  //B
+        '78': 392,  //N
+        '77': 426, //M
     }
-
+    
     window.addEventListener('keydown', keyDown, false);
     window.addEventListener('keyup', keyUp, false);
 
