@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         '75': 853, //K
 
     /* just intonation*/
-        '90': 261, //Z
-        '88': 279, //X
-        '67': 302, //C
-        '86': 328, //V
-        '66': 359,  //B
-        '78': 392,  //N
-        '77': 426, //M
+        '90': 250, //Z
+        '88': 261, //X
+        '67': 279, //C
+        '86': 302, //V
+        '66': 328, //B
+        '78': 359,  //N
+        '77': 392,  //M
     }
     
     window.addEventListener('keydown', keyDown, false);
